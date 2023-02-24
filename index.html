@@ -1,16 +1,132 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-   <script src="memory.js" defer ></script>
-   <title>Uematsu_portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property='og:type' content="website">
+  <meta property='og:title' content="R.UEMATSU ポートフォリオ">
+  <meta property='og:description' content="R.UEMATSUのポートフォリオ">
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="R.UEMATSUのポートフォリオ" />
+  <title>R.UEMATSUのポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/custom.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
 </head>
+
 <body>
-   <div>
-       Hello World
-   </div>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header_logo">
+          <a href=".">R.UEMATSU</a>
+        </h1>
+        <nav class="menu">
+          <ul class="menu_list">
+            <li class="menu_item"><a href="#about">ABOUT</a></li>
+            <li class="menu_item"><a href="#works">WORKS</a></li>
+            <li class="menu_item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- 動き -->
+      <div class="top">
+        <div class="top_container">
+          <p class="top_title">R.UEMATSU</p>
+          <p class="top_subtitle">PORTFOLIO</p>
+          <p class="top_text">
+            はじめまして。
+          </p>
+        </div>
+      </div>
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container">
+          <h2 class="title">ABOUT</h2>
+          <div class="profile">
+            <p class="profile_img">
+              <img src="img/profile.png" alt="">
+            </p>
+            <div class="profile_body">
+              <p>
+                上松と申します。1999年生まれ、秋田在住です。
+                <br>趣味は車と音楽、好きなことはものづくりです。</br>
+              </p>
+                エンジニアを目指して現在転職活動中です。
+                <br>HTML, CSS, Javascript, Illustrator, Photoshop の経験があります。</br>
+              <p>
+                学生時代から、自動車系記事のライティングと、ショップカードやアムバムアートワーク、イベントフライヤー等のデザインを制作もしております。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="container">
+          <h2 class="title">WORKS</h2>
+          <div class="works_list">
+            <!-- 1 -->
+            <a class="works_item" target="_blank" href="https://thunderous-frangipane-af30ac.netlify.app/ ">
+              <div class="works_img"><img src="img/works_memory.jpeg" alt="" /></div>
+              <p class="works_name">神経衰弱ゲーム</p>
+              <p class="works_info">自動車のチェックランプの絵柄で神経衰弱ゲームを作成しました。</p>
+            </a>
+            <!-- 2 -->
+            <a class="works_item">
+                <div class="works_img"><img src="img/works_Artwork_1.JPG" alt="" /></div>
+                <p class="works_name">アルバムアートワーク①</p>
+                <p class="works_info">デザインを担当したアルバムアートワークです。</p>
+              </a>
+            <!-- 3 -->
+            <a class="works_item">
+                <div class="works_img"><img src="img/works_Artwork_2.jpeg" alt="" /></div>
+                <p class="works_name">アルバムアートワーク②</p>
+                <p class="works_info">以前私が所属していたバンドでCDをリリースしたときのものです。</p>
+              </a>
+            <!-- 4 -->
+            <a class="works_item">
+                <div class="works_img"><img src="img/works_shopcard.jpeg" alt="" /></div>
+                <p class="works_name">ショップカード</p>
+                <p class="works_info">飲食店のショップカードをデザインしました。店舗の雰囲気に合うように、和紙で作成しました。</p>
+              </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせはメールにてお願いいたします。
+            kami108biz@gmail.com
+          </p>
+          <div class="contact_list">
+            <a href="mailto:kami108biz@gmail.com" class="contact_item">メールはこちら</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;R.UEMATSU</div>
+    </footer>
+
+  </div>
 </body>
 </html>
