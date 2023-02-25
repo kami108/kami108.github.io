@@ -60,12 +60,8 @@ img {
 
 /* ヘッダー */
 .header {
-  /* 最上部に固定 */
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
-
   z-index: 1;
   width: 100%;
   background-color: #2E4B71;
