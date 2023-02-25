@@ -136,7 +136,6 @@ img {
   justify-content: center;
   height: 85vh;
   text-align: center;
-
   font-family: "Futura-CondensedExtraBold"
 }
 
@@ -259,6 +258,7 @@ img {
 /* コンタクト */
 .contact {
   text-align: center;
+  font-family: "筑紫A丸ゴシック";
 }
 
 /* メールはこちら の文字 */
@@ -363,7 +363,8 @@ img {
   .top_text {
     font-size: 12px;
     line-height: 1.7;
-    
+
+    font-family: "筑紫A丸ゴシック";
   }
 
 
@@ -381,6 +382,8 @@ img {
   .profile_body p {
     font-size: 14px;
     line-height: 1.7;
+
+    font-family: "筑紫A丸ゴシック";
   }
 
   .profile_body p:not(:last-child) {
@@ -395,6 +398,8 @@ img {
 
   .works_info {
     margin-top: 3px;
+
+    font-family: "筑紫A丸ゴシック";
   }
 
   .works_list {
@@ -406,6 +411,14 @@ img {
     margin-right: 0;
     margin-bottom: 30px;
   }
+
+
+  /* コンタクト */
+  .contact {
+    font-family: "筑紫A丸ゴシック";
+  }
+  
+
 
   /* フッター */
   .footer {
