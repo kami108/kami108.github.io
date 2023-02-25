@@ -2,6 +2,8 @@ body {
   font-size: 15px;
   letter-spacing: .05em;
   color: #333333;
+  /* 余白なし */
+  margin: auto;
 }
 
 a {
@@ -31,6 +33,9 @@ img {
 
 .section:nth-of-type(odd) {
   background-color: #f1f2f6;
+  /* グレーの背景部分のみ少し余白をつける */
+  width: 98.5%;
+  margin: auto;
 }
 
 .container {
@@ -219,11 +224,9 @@ img {
 
 .works_img img {
   border: 1px solid #e6e6e6;
-
-
+  /* ゆっくり変化させる */
   height: auto;
   transition: transform .6s ease;
-  /* ゆっくり変化させる */
 }
 
 .works_name {
@@ -278,7 +281,8 @@ img {
 .copyright {
   font-size: 10px;
   text-align: center;
-  color: #797979;
+  color: #f1f2f6;
+  font-family: "Futura-CondensedExtraBold"
 }
 
 
