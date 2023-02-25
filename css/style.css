@@ -20,6 +20,10 @@ img {
   display: block;
 }
 
+.wrapper {
+  padding-top: 73px;
+}
+
 
 .section {
   padding: 90px 0;
@@ -273,7 +277,6 @@ img {
 .footer {
   padding: 30px;
   background-color: #2E4B71;
-  width: 100%;
 }
 
 .copyright {
@@ -295,12 +298,12 @@ img {
 
   /* タイトル */
   .title {
-    font-size: 26px;
+    font-size: 20px;
     margin-bottom: 20px;
   }
 
   .lead {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.7;
     margin-bottom: 20px;
   }
